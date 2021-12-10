@@ -1,1 +1,1 @@
-This folder contains how various lifestyle factors can influence our vital signs (Example heart rate) and biochemical parameters that give an indication of how our health state of different organs and overall health.
+This folder contains works related to project related to, how various food and lifestyle factors can influence our vital signs (Example heart rate) and biochemical parameters.
