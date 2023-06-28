@@ -1,0 +1,36 @@
+{
+    "input_variables": [
+        "query"
+    ],
+    "output_parser": null,
+    "partial_variables": {},
+    "examples": [
+        {
+            "query": "What's the secret to happiness?",
+            "answer": "Finding balance in life and learning to enjoy the small moments."
+        },
+        {
+            "query": "How can I become more productive?",
+            "answer": "Try prioritizing tasks, setting goals, and maintaining a healthy work-life balance."
+        }
+    ],
+    "example_selector": null,
+    "example_prompt": {
+        "input_variables": [
+            "query",
+            "answer"
+        ],
+        "output_parser": null,
+        "partial_variables": {},
+        "template": "\nUser: {query}\nAI: {answer}\n",
+        "template_format": "f-string",
+        "validate_template": true,
+        "_type": "prompt"
+    },
+    "suffix": "\nUser: {query}\nAI: ",
+    "example_separator": "\n\n",
+    "prefix": "The following are excerpts from conversations with an AI\nlife coach. The assistant provides insightful and practical advice to the users' questions. Here are some\nexamples:\n",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "few_shot"
+}
